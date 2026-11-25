@@ -134,9 +134,7 @@ Tata-Power-EV-Charging-Network-Analysis/
 - **Project Presentation:** Available in the `presentation/` folder.
 
 ## Author
-Data Analytics Portfolio Project
-
-Tools: Microsoft Excel | Power Query | PivotTables
+Divya Bansal
 **Data Analytics Portfolio Project**
 
 Tools: Microsoft Excel | Power Query | PivotTables
