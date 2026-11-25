@@ -52,6 +52,14 @@ Examines customer segments, income tiers, EV models, charging frequency and ener
 
 Evaluates proposed projects using CAPEX, annual revenue, EBITDA, payback period, subsidies and five-year ROI.
 
+## Methodology
+
+1. **Data Understanding:** Reviewed the six source files and their data dictionaries to understand the datasets, columns and relationships.
+2. **Data Preparation:** Used Power Query to clean, transform and prepare the datasets for analysis.
+3. **Data Analysis:** Created PivotTables to analyse charging demand, station performance, customer behaviour and financial feasibility.
+4. **Dashboard Development:** Built four interactive Excel dashboards using charts, KPIs and slicers.
+5. **Business Insights:** Interpreted the results to identify customer trends, operational patterns and potential expansion opportunities.
+
 ## Dashboard Previews
 
 ### 1. Business & Usage Overview
@@ -87,13 +95,18 @@ Evaluates proposed projects using CAPEX, annual revenue, EBITDA, payback period,
 
 ## Key Business Insights
 
-- Generated approximately ₹4.97 crore in charging revenue across 114,000 sessions.
-- Identified the Mid-Range income segment as the highest contributor to total revenue.
-- Observed that the Low-Mid income segment generated the largest number of charging sessions.
-- Found differences in project payback periods across charger categories, highlighting the financial trade-off between charging capacity and investment.
-- Evaluated 98 proposed expansion projects to compare investment requirements and projected returns.
-- Identified substantial variation in projected ROI across districts, supporting location-specific expansion decisions.
+- **Revenue Performance:** Generated approximately ₹4.97 crore in revenue across 114,000 charging sessions, with 2.86 million kWh of energy consumed.
 
+- **Customer Behaviour:** The Mid-Range income segment contributed the highest total revenue (₹1.79 crore), while the Low-Mid segment generated the highest number of sessions (56,958).
+
+- **Customer Value:** High-income customers recorded the highest average revenue per customer at approximately ₹12,979.
+
+- **Charger Economics:** AC Level-2 (7.4 kW) projects had the shortest average payback period at 2.38 years, compared with 10.39 years for DC Ultra-fast (150 kW) projects.
+
+- **District-Level Returns:** Bommanahalli recorded the highest average projected 5-year ROI at 144.73%, while Dasarahalli recorded the lowest at -21.77%. Each district had three proposed projects in this comparison.
+
+- **Expansion Prioritisation:** Evaluated 98 proposed expansion projects and classified them into High, Medium and Low priority tiers based on financial feasibility and project potential.
+- 
 ## Analytical Considerations
 
 - Station-level performance is evaluated using charging sessions and energy consumption.
@@ -129,9 +142,8 @@ Tata-Power-EV-Charging-Network-Analysis/
 
 ## Project Deliverables
 
-- **Interactive Excel Workbook:** Available in the `dashboard/` folder.
-- **Dashboard Previews:** Available in the `screenshots/` folder.
-- **Project Presentation:** Available in the `presentation/` folder.
+- [Excel Dashboard Workbook](dashboard/TATA_POWER_DASHBOARD.xlsx) – Complete Excel analysis with four interactive dashboards, PivotTables and supporting analysis.
+- [Final Project Presentation](presentation/Tata_Power_EV_Charging_Network_Analysis.pdf) – Summary of the project, key findings and business recommendations.
 
 ## Author
 Divya Bansal
